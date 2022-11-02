@@ -16,3 +16,7 @@ body{
 .flavor {
   text-align: center;
 }
+
+.price {
+  text-align: right;
+}
