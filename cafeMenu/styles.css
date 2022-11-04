@@ -18,13 +18,18 @@ body{
   }
 
 .flavor {
+<<<<<<< HEAD
   text-align: left;
   width: 50%;
+=======
+  text-align: center;
+  width: 75%;
+>>>>>>> 48c56e051cb3b3f7e4b9aca6c456ac81b0f34442
 }
 
 .price {
   text-align: right;
-  width: 50%;
+  width: 25%;
 }
 
 
