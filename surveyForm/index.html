@@ -12,115 +12,127 @@
       Thank you for taking the time to help us improve the platform
     </p>
     <form id="survey-form">
-      <label id="name-label" for="name">
-        Name:
-        <input type="text" required id="name" placeholder="Enter Your Name" />
-      </label>
-      <label id="email-label" for="email">
-        Email
-        <input
-          type="email"
-          required
-          id="email"
-          placeholder="Enter Your Email"
-        />
-      </label>
-      <label id="number-label" for="number">
-        Age (Optional)
-        <input
-          type="number"
-          id="number"
-          min="18"
-          max="18"
-          required
-          placeholder="Age"
-        />
-      </label>
-      <label>
-        Which option best describes your current role?
-        <select id="dropdown" name="dropdown">
-          <option value="">Select Current role</option>
-          <option value="Student">Student</option>
-          <option value="Full Time Job">Full Time Job</option>
-          <option value="Full Time Learner">Full Time Learner</option>
-          <option value="Prefer not to say">Prefer not to say</option>
-          <option value="Other">Other</option>
-        </select>
-      </label>
-      <label> Would you recommend freeCodeCamp to a friend? </label>
-      <label id="definitely-label" for="radioB-definitely">
-        <input
-          id="radioB-definitely"
-          type="radio"
-          name="radioB"
-          value="Definitely"
-        />
-        Definitely
-      </label>
-      <label id="maybe-label" for="radioB-maybe">
-        <input id="radioB-maybe" type="radio" name="radioB" value="Maybe" />
-        Maybe
-      </label>
-      <label id="not-sure-label" for="radioB-not-sure">
-        <input
-          id="radioB-not-sure"
-          type="radio"
-          name="radioB"
-          value="Not Sure"
-        />
-        Not sure
-      </label>
-      <label id="fav-feature-label" for="feature-id">
-        What is your favorite feature of freeCodeCamp?
-        <select id="feature-id" name="feature">
-          <option value="">Select an option</option>
-          <option value="Challeges">Challeges</option>
-          <option value="Projects">Projects</option>
-          <option value="Community">Community</option>
-          <option value="Open Source">Open Source</option>
-        </select>
-      </label>
-      <label for="" id="see-improved-label">
-        What would you like to see improved? (Check all that apply)
-      </label>
-      <label for="front-end-proj-id" id="front-end-proj-label">
-        <input
-          id="front-end-proj-id"
-          name="front-end-proj"
-          type="checkbox"
-          value="Front-end Projects"
-        />
-        Front-end Projects
-      </label>
-      <label for="back-end-proj-id" id="back-end-proj-label">
-        <input
-          id="back-end-proj-id"
-          name="back-end-proj"
-          type="checkbox"
-          value="Back-end Projects"
-        />
-        Back-end Projects
-      </label>
-      <label for="data-visualization-id" id="data-visualization-label">
-        <input
-          id="data-visualization-id"
-          name="data-visualization"
-          type="checkbox"
-          value="Data Visualization"
-        />
-        Data Visualization
-      </label>
-      <label id="comment-label" for="comment-id">
-        Any comments or suggestions?
-        <textarea
-          id="comment-id"
-          name="comment"
-          rows="10"
-          cols="50"
-          placeholder="please type your comment here..."
-        >
-        </textarea>
-      </label>
+      <fieldset>
+        <label id="name-label" for="name">
+          Name:
+          <input type="text" required id="name" placeholder="Enter Your Name" />
+        </label>
+        <label id="email-label" for="email">
+          Email
+          <input
+            type="email"
+            required
+            id="email"
+            placeholder="Enter Your Email"
+          />
+        </label>
+        <label id="number-label" for="number">
+          Age (Optional)
+          <input
+            type="number"
+            id="number"
+            min="18"
+            max="18"
+            required
+            placeholder="Age"
+          />
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+          Which option best describes your current role?
+          <select id="dropdown" name="dropdown">
+            <option value="">Select Current role</option>
+            <option value="Student">Student</option>
+            <option value="Full Time Job">Full Time Job</option>
+            <option value="Full Time Learner">Full Time Learner</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+            <option value="Other">Other</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label> Would you recommend freeCodeCamp to a friend? </label>
+        <label id="definitely-label" for="radioB-definitely">
+          <input
+            id="radioB-definitely"
+            type="radio"
+            name="radioB"
+            value="Definitely"
+          />
+          Definitely
+        </label>
+        <label id="maybe-label" for="radioB-maybe">
+          <input id="radioB-maybe" type="radio" name="radioB" value="Maybe" />
+          Maybe
+        </label>
+        <label id="not-sure-label" for="radioB-not-sure">
+          <input
+            id="radioB-not-sure"
+            type="radio"
+            name="radioB"
+            value="Not Sure"
+          />
+          Not sure
+        </label>
+      </fieldset>
+      <fieldset>
+        <label id="fav-feature-label" for="feature-id">
+          What is your favorite feature of freeCodeCamp?
+          <select id="feature-id" name="feature">
+            <option value="">Select an option</option>
+            <option value="Challeges">Challeges</option>
+            <option value="Projects">Projects</option>
+            <option value="Community">Community</option>
+            <option value="Open Source">Open Source</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="" id="see-improved-label">
+          What would you like to see improved? (Check all that apply)
+        </label>
+        <label for="front-end-proj-id" id="front-end-proj-label">
+          <input
+            id="front-end-proj-id"
+            name="front-end-proj"
+            type="checkbox"
+            value="Front-end Projects"
+          />
+          Front-end Projects
+        </label>
+        <label for="back-end-proj-id" id="back-end-proj-label">
+          <input
+            id="back-end-proj-id"
+            name="back-end-proj"
+            type="checkbox"
+            value="Back-end Projects"
+          />
+          Back-end Projects
+        </label>
+        <label for="data-visualization-id" id="data-visualization-label">
+          <input
+            id="data-visualization-id"
+            name="data-visualization"
+            type="checkbox"
+            value="Data Visualization"
+          />
+          Data Visualization
+        </label>
+      </fieldset>
+      <fieldset>
+        <label id="comment-label" for="comment-id">
+          Any comments or suggestions?
+          <textarea
+            id="comment-id"
+            name="comment"
+            rows="10"
+            cols="50"
+            placeholder="please type your comment here..."
+          >
+          </textarea>
+        </label>
+      </fieldset>
       <input id="submit" type="submit" />
     </form>
   </body>
