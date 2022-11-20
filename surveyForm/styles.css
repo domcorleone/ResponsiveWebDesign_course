@@ -5,11 +5,9 @@ body {
     color: #f5f6f7;
     font-family: Tahoma;
     padding: 2em 0;
-    background-image:  url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);  
-     
+    background-image:  url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);       
      background-repeat: no-repeat;
-     background-size: cover;
-     
+     background-size: cover;  
      
   }
   
@@ -72,3 +70,6 @@ body {
     border: 0;
   }
   
+  input[type="radio"], input[type="checkbox"] {
+    width: 4%;
+  }
