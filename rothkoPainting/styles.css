@@ -44,6 +44,7 @@
     height: 28%;
     background-color: #b20403;
     margin: 0 auto 20px auto;
+    filter: blur(2px);
   }
 
   .one, .two {
