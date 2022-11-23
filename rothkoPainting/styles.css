@@ -16,3 +16,7 @@
     padding: 50px; 
     margin: 20px auto; /*will center the frame toward the body*/
   }
+
+  .one {
+    width: 425;
+  }
