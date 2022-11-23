@@ -33,6 +33,8 @@
     /*Create shadow around the element*/
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: 0 0 3px 3px #efb762;
+    /*Round the corners of the border*/
+    border-radius: 9px;
   }
 
   .two {
