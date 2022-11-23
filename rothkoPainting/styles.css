@@ -7,11 +7,12 @@
   .frame {
     border: 50px solid black;  
     width: 500px;
-    
+
     /*the line 'padding: 50px;' is shorthand for:
     padding-top: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
     padding-left: 50px;*/
     padding: 50px; 
+    margin: 20px auto; /*will center the frame toward the body*/
   }
