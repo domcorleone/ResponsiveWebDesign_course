@@ -30,6 +30,8 @@
     height: 150;
     background-color: #efb762;
     margin: 20px auto;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0 0 3px 3px #efb762;
   }
 
   .two {
