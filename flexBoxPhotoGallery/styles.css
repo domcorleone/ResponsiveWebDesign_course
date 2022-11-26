@@ -13,3 +13,12 @@
     font-family: sans-serif;
     background-color: #f5f6f7;
   }
+
+  .header {
+    text-align: center;
+    text-transform: uppercase;
+    background-color:#0a0a23;
+    color: #fff;
+    padding: 32px;
+    border-bottom: 4px solid #fdb347;
+  }
