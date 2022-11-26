@@ -46,3 +46,8 @@
     gap: 16px;
     border-radius: 10px;
   }
+
+  .gallery::after {
+    content: "";
+    width: 350px;
+  }
