@@ -36,4 +36,7 @@
     justify-content: center;
     /*?? no change was spotted*/
     align-items: center;
+    padding: 20px 10px;
+    max-width: 1400px;
+    margin: 0 auto;
   }
