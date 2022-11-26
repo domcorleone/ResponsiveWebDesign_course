@@ -39,4 +39,7 @@
     padding: 20px 10px;
     max-width: 1400px;
     margin: 0 auto;
+    /*applied when the image is distorted...It will fill, crop and fit 
+    the image inside de the image container*/
+    object-fit: cover;
   }
