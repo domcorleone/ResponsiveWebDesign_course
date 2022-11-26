@@ -24,12 +24,14 @@
   }
 
   .gallery {
-    /*itens will placed regarding the space inside the container*/
+    /*itemsss will placed regarding the space inside the container*/
     display: flex;
     /*Itens can be stowed accordinto to axis (rows and columns)
       we can put them from left to right or vice-verse (rows)
       we can put them from top to bottom or vice-verse (columns)
     */
     flex-direction: row;
+    /*make the items wrap to the next line if they run out of space*/
+    flex-wrap: wrap;
 
   }
