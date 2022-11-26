@@ -44,4 +44,5 @@
     object-fit: cover;
     /*Put some space 'gap' between the images*/
     gap: 16px;
+    border-radius: 10px;
   }
