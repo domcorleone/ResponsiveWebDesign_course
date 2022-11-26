@@ -42,4 +42,6 @@
     /*applied when the image is distorted...It will fill, crop and fit 
     the image inside de the image container*/
     object-fit: cover;
+    /*Put some space 'gap' between the images*/
+    gap: 16px;
   }
