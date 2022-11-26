@@ -33,5 +33,6 @@
     flex-direction: row;
     /*make the items wrap to the next line if they run out of space*/
     flex-wrap: wrap;
+    justify-content: center;
 
   }
