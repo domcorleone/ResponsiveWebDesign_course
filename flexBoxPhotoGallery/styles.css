@@ -34,5 +34,6 @@
     /*make the items wrap to the next line if they run out of space*/
     flex-wrap: wrap;
     justify-content: center;
-
+    /*?? no change was spotted*/
+    align-items: center;
   }
