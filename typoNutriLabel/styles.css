@@ -1,5 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
-    font-size: 16px;
+    font-size: 16px;   
 }
 
 body {
@@ -10,4 +14,7 @@ body {
     border: 2px solid black;
     width: 270px;
     margin: 20px auto;
+    padding: 0 7px;    
 }
+
+
