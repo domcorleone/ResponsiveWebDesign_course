@@ -59,6 +59,8 @@ p {
 
 .calories-info span {
     font-size: 1.2em;
+    /*use overflow: hidden every time the element is overflowing 'transbordar ou passar do limite'*/
+    overflow: hidden;
 }
 
 
