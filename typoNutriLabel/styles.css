@@ -89,4 +89,8 @@ which has not '.no-divider' class included.
     border-bottom: 1px solid #888989;
 }
 
+.dbl-indent {
+    margin-left: 2em;
+}
+
 
