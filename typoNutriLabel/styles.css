@@ -75,7 +75,7 @@ p {
     margin-left: 1em;
 }
 /*
-select all p elements that is under .dailyvalue class
+select all p elements that is under .daily-value class
 .daily-value p{
     border-bottom: 1px solid #888989;
 }*/
