@@ -61,6 +61,8 @@ p {
     font-size: 1.2em;
     /*use overflow: hidden every time the element is overflowing 'transbordar ou passar do limite'*/
     overflow: hidden;
+    /*to make the text '230' fallback to its place*/
+    margin-top: -7px;
 }
 
 
