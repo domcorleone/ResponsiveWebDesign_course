@@ -74,8 +74,18 @@ p {
 .indent {
     margin-left: 1em;
 }
+/*
+select all p elements that is under .dailyvalue class
+.daily-value p{
+    border-bottom: 1px solid #888989;
+}*/
 
-.dailyvalue p{
+/*
+select all p elements that is under .daily-value class
+which has not '.no-divider' class included.
+*/
+
+.daily-value p:not(.no-divider) {
     border-bottom: 1px solid #888989;
 }
 
