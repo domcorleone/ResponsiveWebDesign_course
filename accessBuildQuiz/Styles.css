@@ -17,3 +17,11 @@ body {
     aspect-ratio: 35 / 4;
     padding: 0.4rem;
 }
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: #1b1b32;
+    /* stow the elements according to the space*/
+    display: flex;
+  }
