@@ -26,8 +26,17 @@ header {
     display: flex;
 }
 
-  h1 {
+h1 {
     color: #f1be32;
     /*will return the minimum value...*/
     font-size: min(5vw, 1.2em);
+}
+/*
+The element > element selector in CSS is used to style only those elements which are the children of specific parent.
+
+The operand on the left of > is the parent and the operand on the right is the children element.
+*/
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
 }
