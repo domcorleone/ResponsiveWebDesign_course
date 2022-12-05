@@ -24,4 +24,10 @@ header {
     background-color: #1b1b32;
     /* stow the elements according to the space*/
     display: flex;
-  }
+}
+
+  h1 {
+    color: #f1be32;
+    /*will return the minimum value...*/
+    font-size: min(5vw, 1.2em);
+}
