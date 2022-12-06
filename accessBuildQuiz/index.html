@@ -23,7 +23,7 @@
     <main>
         <form action="https://freecodecamp.org/practice-project/accessibility-quiz" method="post">
             <section role="region" aria-labelledby="student-info">
-                <h2 id="student-info">Student Information</h2>
+                <h2 id="student-info">Student Info</h2>
                 <div class="info">
                     <label for="student-name">Name:</label>
                     <input id="student-name" name="student-name" type="text" placeholder="" />
@@ -38,14 +38,14 @@
                 </div>
             </section>
             <section role="region" aria-labelledby="html-questions">
-                <h2 id="html-questions">Ask Html Questions</h2>
+                <h2 id="html-questions">HTML</h2>
                 <div class="question-block">
                     <p>1</p>
                     <fieldset class="question" name="answer-options-one">
                         <legend>Question #1</legend>
                         <ul class="answers-list">
-                            <li><label><input type="radio" id="q1-a1"/></label></li>
-                            <li><label><input type="radio" id="q1-a2"/></label></li>
+                            <li><label for="q1-a1"><input type="radio" id="q1-a1"/></label></li>
+                            <li><label for="q1-a2"><input type="radio" id="q1-a2"/></label></li>
                         </ul>
                     </fieldset>
                 </div>
@@ -54,14 +54,14 @@
                     <fieldset class="question" name="answer-options-two">
                         <legend>Question #2</legend>
                         <ul class="answers-list">
-                            <li><label><input type="radio" id="q2-a1"/></label></li>
-                            <li><label><input type="radio" id="q2-a2"/></label></li>
+                            <li><label for="q2-a1"><input type="radio" id="q2-a1"/></label></li>
+                            <li><label for="q2-a2"><input type="radio" id="q2-a2"/></label></li>
                         </ul>
                     </fieldset>
                 </div>
             </section>
             <section role="region" aria-labelledby="css-questions">
-                <h2 id="css-questions">Ask Css Questions</h2>
+                <h2 id="css-questions">CSS</h2>
             </section>
         </form>
     </main>
