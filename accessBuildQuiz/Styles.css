@@ -48,3 +48,20 @@ h1, h2 {
 h2 {
     border-bottom: 4px solid #dfdfe2;
 }
+
+.sr-only {
+    /* will position the element ignoring others element in the page. top, left, bottom, right will
+    have some influence on its position*/
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    /* will make the element return to its original place*/
+    overflow: hidden;
+    /* will show portion of the element according rect (top, bottom, left, right)*/
+    clip: rect(0, 0, 0, 0);
+    /* will convert two or more white spaces into one and 'nowrap' will keep the text in the same line*/
+    white-space: nowrap;
+    border: 0;
+}
