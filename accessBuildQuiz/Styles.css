@@ -24,6 +24,10 @@ header {
     background-color: #1b1b32;
     /* stow the elements according to the space*/
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
 }
 
 h1 {
@@ -81,7 +85,7 @@ nav > ul > li {
 li > a {
     color: inherit;
     text-decoration: none; 
-  }
+}
   
 nav > ul > li:hover {
     background-color: #dfdfe2;
