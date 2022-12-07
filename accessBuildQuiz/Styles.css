@@ -70,3 +70,10 @@ before any content assigned to p elements*/
 p::before {
     content: 'Question #'
 }
+
+nav > ul > li {
+    color: #dfdfe2;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+}
