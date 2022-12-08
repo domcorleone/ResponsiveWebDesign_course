@@ -43,7 +43,18 @@ The operand on the left of > is the parent and the operand on the right is the c
 */
 nav > ul {
     display: flex;
+    /* create space in between elements*/
     justify-content: space-evenly;
+    /* aligns the items at the center*/
+    align-items: center;
+    /* the space at the top of the edge of the element
+       padding-block is a shorthand for padding-inline-start and 
+       padding-inline-end
+    */
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+    flex-wrap: wrap;  
 }
 
 h1, h2 {
@@ -97,4 +108,9 @@ nav > ul > li:hover {
 main {
     padding-top: 60px;
 }
-  
+
+section {
+    width: 80%;
+    margin: 0 auto 10px auto;
+    max-width: 600px;
+}
