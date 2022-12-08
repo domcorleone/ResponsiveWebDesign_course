@@ -195,4 +195,9 @@ footer {
 footer a, footer {
     color: #bababa;
 }
+
+address { 
+    text-align: center;
+    padding: 1px;
+}
   
