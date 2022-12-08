@@ -1,3 +1,11 @@
+/*
+    when clicking the nav links menu, this can be a little bit desoriented
+    however, we can fix it by using the scroll-behaviour property
+*/
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     background: #f5f6f7;    
     color: #1b1b32;
