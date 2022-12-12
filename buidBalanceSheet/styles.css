@@ -5,4 +5,13 @@ html {
 body {
     font-family: sans-serif;
     color: #0a0a23;
-  }
+}
+
+/*
+It applies the style in the selected
+class and will hide it visual, but the screen
+readers will be able to announce them
+*/
+span[class~="sr-only"] {
+    border: 0;
+}
