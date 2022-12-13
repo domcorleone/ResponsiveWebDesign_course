@@ -7,7 +7,7 @@
 }
 
 */
-/* applied to evoid the page scroll sharply - used for people with vestibular desorder*/
+/* applied to avoid the page scroll sharply - used for people with vestibular desorder*/
 @media (prefers-reduced-motion: no-preference ){
     * {
         scroll-behavior: smooth;
