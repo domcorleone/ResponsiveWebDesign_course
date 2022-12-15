@@ -67,3 +67,12 @@ section {
     position: sticky;
     top: 0;
 }
+
+#years {
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    color: #fff;
+    background-color: #0a0a23;
+}
