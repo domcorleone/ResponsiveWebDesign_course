@@ -82,6 +82,7 @@ section {
 .table-wrap {
     padding: 0 0.75rem 1.5rem 0.75rem;
 }
+
 /* removed because selector 'span[class~=".sr-only"]' was enforced with
 !important keyword
  */
@@ -91,4 +92,10 @@ section {
 
 span {
     font-weight: normal;
+}
+
+table {
+    border: 0;
+    border-collapse: collapse;
+
 }
