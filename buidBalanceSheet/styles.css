@@ -66,13 +66,6 @@ section {
     justify-content: flex-end;
     position: sticky;
     top: 0;
-}
-
-#years {
-    display: flex;
-    justify-content: flex-end;
-    position: sticky;
-    top: 0;
     color: #fff;
     background-color: #0a0a23;
     /* keeps the element at the top...
@@ -80,4 +73,11 @@ section {
     z-index: 999;
     margin: 0 -2px;
     padding: 0.5rem calc(1.25rem + 2px) 0.5rem 0;
+}
+
+#years span[class] {
+    font-weight: bold;
+    width: 4.5rem;
+    text-align: right;
+
 }
