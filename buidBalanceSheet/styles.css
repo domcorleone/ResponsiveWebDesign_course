@@ -95,7 +95,9 @@ span {
 }
 
 table {
-    border: 0;
     border-collapse: collapse;
-
+    border: 0;
+    width: 100%;
+    position: relative;
+    margin-top: 3rem;
 }
