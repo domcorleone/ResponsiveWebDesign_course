@@ -49,3 +49,7 @@ Target the first span element in the flex container
 h1 .flex span:first-of-type {
     font-size: 0.7em;
 }
+/*Target the last span element in the flex container*/
+h1 .flex span:last-of-type {
+    font-size: 1.2em;  
+}
