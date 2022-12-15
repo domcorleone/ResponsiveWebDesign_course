@@ -14,4 +14,12 @@ readers will be able to announce them
 */
 span[class~="sr-only"] {
     border: 0;
+    /* many articles say the clip property is depreacated
+        clip: rect (top, right bottom left)
+        replaced by:
+        clip-path: inset (top, right, bottom, left);  clip a rectangle 
+    */
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    -webkit-clip-path: inset(50%);
 }
