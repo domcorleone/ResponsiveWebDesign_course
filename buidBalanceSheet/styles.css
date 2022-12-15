@@ -75,4 +75,9 @@ section {
     top: 0;
     color: #fff;
     background-color: #0a0a23;
+    /* keeps the element at the top...
+    z-index only works with position element like absolute, fixed, sticky and relative */
+    z-index: 999;
+    margin: 0 -2px;
+    padding: 0.5rem calc(1.25rem + 2px) 0.5rem 0;
 }
