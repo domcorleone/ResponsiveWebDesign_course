@@ -42,4 +42,6 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    /* it ensures that we see the mask, positioning the element in front.*/
+    z-index: 1;
 }
