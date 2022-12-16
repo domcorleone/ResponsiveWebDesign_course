@@ -236,5 +236,17 @@ body {
     width: 35px;
     height: 20px;
     background-color: #8B4513;
+    /* Two values /*
+    /* top-left and bottom-right top-right and bottom-left  
+    1º param: top-left
+    2º param: bottom-right top-right and bottom-left
+    https://css-tricks.com/almanac/properties/b/border-radius/
+    */
     border-radius: 20px 50%;
+}
+
+.right {
+    position: absolute;
+    top: 15px;
+    right: 30px;
 }
