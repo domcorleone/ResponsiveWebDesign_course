@@ -45,3 +45,9 @@ body {
     /* it ensures that we see the mask, positioning the element in front.*/
     z-index: 1;
 }
+
+#gray-instrument {
+    width: 15%;
+    height: 40%;
+    background-color: rgb(167, 162, 117);
+}
