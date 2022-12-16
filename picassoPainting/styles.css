@@ -183,4 +183,8 @@ body {
     height: 0;
     border-style: solid;
     border-width: 42px 45px 45px 0;
+    border-top-color: transparent;
+    border-right-color: gold;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
 }
