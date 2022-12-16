@@ -90,6 +90,7 @@ section {
     font-weight: normal;
 }*/
 
+/* step 63 asks to remove the rule applied to the span element*/
 span {
     font-weight: normal;
 }
