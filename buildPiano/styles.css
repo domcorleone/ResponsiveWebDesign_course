@@ -62,3 +62,9 @@ where it contains both classes as following 'key black--key'
     position: absolute;
     top: 23px;
 }
+/*
+media query that will be applied when the viewport is 768px wide and below
+*/
+@media (max-width: 768px) {
+
+}
