@@ -35,6 +35,7 @@ html {
     margin: 2px;
     float: left;
 }
+
 /*
 Creates a pseudo-element
 where it contains both classes as following 'key black--key'
@@ -42,5 +43,7 @@ where it contains both classes as following 'key black--key'
 .key.black--key::after {
     background-color: #1d1e22;
     content: "";
+    position: absolute;
+    left: -18px;
 
 }
