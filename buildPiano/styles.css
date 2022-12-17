@@ -20,6 +20,8 @@ html {
     /* this property was set because the img was set to absolute. Then its parent 'div #piano'
     needs to have a position other than static (which is the default position of any html element)*/
     position: relative;
+    /*Round the borders of the piano itself*/
+    border-radius: 10px;
 }
 
 .keys {
