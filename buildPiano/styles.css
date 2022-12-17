@@ -74,4 +74,8 @@ media query that will be applied when the viewport is 768px wide and below
     .keys {
         width: 318px;
     }
+
+    .logo {
+        width: 150px;
+    }
 }
