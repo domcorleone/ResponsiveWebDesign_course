@@ -45,5 +45,7 @@ where it contains both classes as following 'key black--key'
     content: "";
     position: absolute;
     left: -18px;
+    width: 32px;
+    height: 100px;
 
 }
