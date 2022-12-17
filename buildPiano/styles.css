@@ -1,3 +1,9 @@
 html {
     box-sizing: border-box;
 }
+
+*, /* Selects all elements */
+::before, /* Crates a pseudo-element which is the first child of selected element*/
+::after { /* Crates a pseudo-element which is the last child of the selected element */
+    box-sizing: inherit; /* tells that child element to inherit the box-sizing property setted in the parente 'HTML' */
+}
