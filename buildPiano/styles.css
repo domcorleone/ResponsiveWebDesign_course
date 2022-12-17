@@ -81,7 +81,14 @@ media query that will be applied when the viewport is 768px wide and below
         width: 150px;
     }
 }
+
 /*@media rule to apply if the browser window is wider than 769px but smaller than 1199px*/
 @media (min-width: 769px) and (max-width: 1199px) {
-  
+    #piano {
+        width: 675px;
+    }
+
+    .keys {
+        width: 633px;
+    }
 }
