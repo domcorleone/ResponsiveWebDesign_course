@@ -70,4 +70,8 @@ media query that will be applied when the viewport is 768px wide and below
     #piano {
         width: 358px;
     }
+
+    .keys {
+        width: 318px;
+    }
 }
