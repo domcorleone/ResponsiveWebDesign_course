@@ -17,6 +17,9 @@ html {
     width: 992px;
     height: 290px;
     margin: 80px auto;
+    /* this property was set because the img was set to absolute. Then its parent 'div #piano'
+    needs to have a position other than static (which is the default position of any html element)*/
+    position: relative;
 }
 
 .keys {
