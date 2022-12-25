@@ -21,7 +21,7 @@ body {
     flex-direction: column;
     align-items: center;
     /* creating a variable here */
-    --building-color1: #999;
+    --building-color1: #aa80ff;
 }
 
 .bb1a {
