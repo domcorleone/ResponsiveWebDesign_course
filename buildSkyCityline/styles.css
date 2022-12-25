@@ -25,6 +25,8 @@ body {
     align-items: center;
     /* creating a variable here */
     --building-color1: #aa80ff;
+    --building-color2: #66cc99;
+    --building-color3: #cc6699;
 }
 
 .bb1a {
@@ -65,4 +67,5 @@ body {
 .bb4 {
     width: 11%;
     height: 58%;
+    background-color: var(--building-color3, pink);
 }
