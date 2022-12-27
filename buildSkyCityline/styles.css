@@ -27,6 +27,8 @@ body {
     align-items: flex-end;
     justify-content: space-evenly;
 }
+
+
 /* BACKGROUND BUILDINGS - "bb" stands for "background building" */
 .bb1 {
     width: 10%;
@@ -40,11 +42,15 @@ body {
     --building-color3: #cc6699;
 }
 
+.bb1-window {
+    height: 10%;
+    background: linear-gradient(var(--building-color1),
+            var(--window-color1));
+}
+
 .bb1a {
     width: 70%;
-    height: 10%;
     background-color: var(--building-color1);
-    background: linear-gradient(var(--building-color1), var(--window-color1));
 }
 
 .bb1b {
@@ -82,6 +88,7 @@ body {
     height: 58%;
     background-color: var(--building-color4);
 }
+
 /* FOREGROUND BUILDINGS - "fb" stands for "foreground building" */
 .fb1 {
     width: 10%;
