@@ -11,7 +11,7 @@
 }
 
 * {
-    
+
     box-sizing: border-box;
 }
 
@@ -160,13 +160,13 @@ body {
 .fb6 {
     width: 9%;
     height: 38%;
-    
+
     background: repeating-linear-gradient(90deg,
             var(--building-color3) 0%,
             var(--building-color3) 10%,
             transparent 10%,
             transparent 30%),
-        
+
         repeating-linear-gradient(var(--building-color3) 0%,
             var(--building-color3) 10%,
             var(--window-color3) 10%,
@@ -284,4 +284,11 @@ body {
 .fb4a {
     border-top: 5vh solid transparent;
     border-left: 8vw solid var(--building-color1);
+}
+
+.sky {
+    background: radial-gradient(#ffcf33 0%,
+            #ffcf33 20%,
+            #ffff66 21%,
+            #bbeeff 100%);
 }
