@@ -260,3 +260,8 @@ body {
     background-color: var(--window-color1);
     margin: 10%;
 }
+
+.fb4a {
+    border-top: 5vh solid transparent;
+    border-left: 8vw solid var(--building-color1);
+}
