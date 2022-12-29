@@ -293,3 +293,5 @@ body {
             #ffff66 21%,
             #bbeeff 100%);
 }
+
+@media (max-width: 1000px) {}
