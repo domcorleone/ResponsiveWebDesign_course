@@ -46,6 +46,8 @@ main {
     display: grid;
     /* Create 2 columns each with 1fr of size */
     grid-template-columns: repeat( 2 , 1fr ); /* the same as grid-template-columns: 1fr 1fr */
+    /* Creates a gap between the rows */
+    row-gap: 1.5rem;
 }
 
 .text {
