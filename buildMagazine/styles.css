@@ -44,6 +44,8 @@ main {
 .heading {
     grid-column: 2 / 3;
     display: grid;
+    /* Create 2 columns each with 1fr of size */
+    grid-template-columns: repeat( 2 , 1fr ); /* the same as grid-template-columns: 1fr 1fr */
 }
 
 .text {
