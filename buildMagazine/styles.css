@@ -104,7 +104,7 @@ img {
     display: grid;
     font-size: 3rem;
     /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
-    grid-template-columns: repeat( 5 , 1fr );
+    grid-template-columns: repeat(5, 1fr);
     /* It will create dynamically a column as needed.
        e.g: Try to add a new icon to see the differences.  
     */
@@ -114,4 +114,5 @@ img {
        Applying this will set 1fr as a value for width to new columns
      */
     grid-auto-columns: 1fr;
+    align-items: center;
 }
