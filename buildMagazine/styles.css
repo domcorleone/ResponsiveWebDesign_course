@@ -183,4 +183,9 @@ hr {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: repeat(3, min-content);
+    /*
+     gap: 2rem; same as row-gap: 2rem; column-gap: 2rem;
+     gap: 1rem 3rem; same as row-gap: 1rem; column-gap: 3rem
+    */
+    gap: 2rem; /* shorthand for row-gap and column-gap */
 }
