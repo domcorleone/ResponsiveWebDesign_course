@@ -115,6 +115,16 @@ img {
      */
     grid-auto-columns: 1fr;
     align-items: center;
+
+}
+
+.first-paragraph::first-letter {
+    font-size: 6rem;
+    color: orangered;
+}
+
+.text {
+    grid-column: 2 / 3;
     font-size: 1.8rem;
     letter-spacing: 0.6px;
     column-width: 25rem;
@@ -123,3 +133,4 @@ img {
     */
     text-align: justify;
 }
+
