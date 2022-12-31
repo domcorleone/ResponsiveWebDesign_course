@@ -103,4 +103,6 @@ img {
 .social-icons {
     display: grid;
     font-size: 3rem;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat( 5 , 1fr );
 }
