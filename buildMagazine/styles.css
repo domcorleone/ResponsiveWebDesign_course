@@ -51,5 +51,15 @@ main {
 }
 
 .text {
+    /*It will set grid-column-start: 2 and grid-column-end: 2
+      2 represents the line number 'vertically' where it begins
+      3 represents the line number 'vertically' where it ends
+      https://learncssgrid.com/
+    */
     grid-column: 2 / 3;    
+}
+
+.hero {
+    /* We use -1 when we are not sure where the content of our columns will end*/
+    grid-column: 1 / -1; /* Since our last columns is 3, this is the same as grid-column: 1 / 3 */
 }
