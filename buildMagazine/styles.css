@@ -38,4 +38,5 @@ main {
     /*grid-template-columns: 1fr 94rem 1fr;*/
     /*minmax will turn the columns into responsive*/
     grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(2rem, 1fr);
+    row-gap: 3rem;
 }
