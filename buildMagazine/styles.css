@@ -201,8 +201,29 @@ hr {
     grid-column: 1 / -1;
 }
 
+/*
+screen: It is used to set the screen size of media query. The screen size can be set by using max-width and min-width. The screen size is differ from screen to screen.
+
+Syntax:
+
+@media screen and (max-width: width)
+
+only screen: The only keyword is used to prevent older browsers that do not support media queries with media features from applying the specified styles.
+
+Syntax:
+
+@media only screen and (max-width: width) 
+https://www.geeksforgeeks.org/what-is-the-difference-between-screen-and-only-screen-in-media-queries/
+
+*/
 @media only screen and (max-width: 720px) {
     .image-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .text-with-images {
         grid-template-columns: 1fr;
     }
 }
