@@ -69,5 +69,14 @@ main {
 
 img {
     width: 100%;
+    /* https://www.geeksforgeeks.org/css-the-object-fit-property/ 
+        object-fit: fill|contain|cover|scale-down|none|initial|inherit;
+    */
     object-fit: cover;
+}
+
+.hero-title {
+    text-align: center;
+    color: orangered;
+    font-size: 8rem;
 }
