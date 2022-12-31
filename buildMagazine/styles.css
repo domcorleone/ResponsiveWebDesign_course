@@ -118,4 +118,8 @@ img {
     font-size: 1.8rem;
     letter-spacing: 0.6px;
     column-width: 25rem;
+    /* Printed magazine usually uses justified text
+       and also it's good for people with desability 
+    */
+    text-align: justify;
 }
