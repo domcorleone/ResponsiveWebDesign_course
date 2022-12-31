@@ -188,4 +188,9 @@ hr {
      gap: 1rem 3rem; same as row-gap: 1rem; column-gap: 3rem
     */
     gap: 2rem; /* shorthand for row-gap and column-gap */
+    /* place-items property is the same as set properties for:
+    
+       align-items: some value;
+       justify-items: some value*/
+    place-items: center;
 }
