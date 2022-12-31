@@ -121,6 +121,9 @@ img {
 .first-paragraph::first-letter {
     font-size: 6rem;
     color: orangered;
+    float: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .text {
@@ -133,4 +136,3 @@ img {
     */
     text-align: justify;
 }
-
