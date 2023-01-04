@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    font-family: Lato, sans-serif;
+    margin: 100px 0 0 0;
+    /* hide the right scroll bar or vertical scroll bar*/
+    /*overflow-y: hidden;*/
+    /* hide the horizontal scroll bar*/
+    /*overflow-x: hidden;*/
+
+}
+
+/* allows to remove horizontal and vertical scrollbar in google chrome and safari*/
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+html {
+    background-color: #eee;
+    font-family: Lato, sans-serif;
+    margin: 0;
+}
+
+form {
+    display: inline-block;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #eee;
+    z-index: 1;
+}
+
+
+#header-img {
+    width: 300px;
+    padding: 15px 0 0 0;
+    object-fit: contain;
+
+}
+
+/*#nav-bar {
+    display: flex;
+    position: absolute;
+    right: 20px;
+    justify-content: space-between;
+  }*/
+
+nav>ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 0.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+
+input[type="email"] {
+    height: 45px;
+    width: 400px;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+input[type="submit"] {
+    height: 45px;
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 15px;
+    border: 0;
+    background-color: #f1c40f;
+    font-size: 1em;
+    font-weight: 900;
+}
+
+input[type="button"] {
+    height: 45px;
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 15px;
+    border: 0;
+    background-color: #f1c40f;
+    font-size: 1em;
+    font-weight: 900;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
+
+.section-one {
+    margin-top: 200px;
+}
+
+.gridlayout {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+
+.icon {
+    position: relative;
+    top: 40px;
+}
+
+.fa {
+    font-weight: 1000;
+    color: darkorange;
+
+}
+
+.price-item {
+    text-align: center;
+    max-width: 500px;
+    height: 20rem;
+    border: 1px solid black;
+    width: 100%;
+    margin: 0.8rem;
+
+}
+
+.price-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+.price-item>.title-price {
+    background-color: #ddd;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+#price {
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+
+.section-three,
+.section-two,
+.section-one {
+    text-align: center;
+}
+
+footer {
+    background-color: #ddd;
+    padding: 05px 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer ul li {
+    list-style-type: none;
+    padding: 0.5em;
+}
+
+footer p {
+    display: flex;
+    justify-content: flex-end;
+}
+
+main {
+    margin: 0 auto;
+    background-color: #eee;
+    max-width: 1000px;
+}
+
+.section-three {
+    padding: 0 auto;
+    background-color: #eee;
+}
+
+.info,
+#subtitle {
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+    .gridlayout {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+
+    }
+
+    .info,
+    #subtitle {
+        text-align: center;
+    }
+
+    #header {
+        grid-template-columns: 1fr;
+        text-align: center;
+        justify-content: space-around;
+        
+
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .price-group {
+        flex-direction: column;
+        max-width: 300px;
+        width: 100%;
+    }
+
+    nav>ul {
+        flex-direction: column;
+        list-style-type: none;
+
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    /*#header,
+    #nav-bar ul {
+        flex-wrap: wrap;
+    }*/
+    #header {
+        /*display: block; or */
+        flex-direction: column;
+        
+    }
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
