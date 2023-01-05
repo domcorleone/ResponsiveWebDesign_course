@@ -79,4 +79,6 @@
     top: 7%;
 }
 
-@keyframes wheel {}
+@keyframes wheel {
+    0% {}
+}
