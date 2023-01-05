@@ -8,3 +8,8 @@ body {
     overflow-x: hidden;
     overflow-y: hidden;
 }
+
+.ground {
+    width: 100vw;
+    height: 400px;
+}
