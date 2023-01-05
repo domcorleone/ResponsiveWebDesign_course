@@ -15,6 +15,7 @@
     animation-iteration-count: infinite;
     /* Determine how the animation will progress over time */
     animation-timing-function: linear;
+    /* Support link: https://www.geeksforgeeks.org/css-animation-timing-function-property/*/
 }
 
 .line {
@@ -94,5 +95,15 @@
 
     100% {
         transform: rotate(360deg);
+    }
+}
+
+@keyframes cabins {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg)
     }
 }
