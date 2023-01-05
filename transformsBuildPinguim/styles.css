@@ -16,6 +16,7 @@ body {
     z-index: 3;
     /* cause .ground element will be the 3rd to be in the stack context  ??? */
     position: absolute;
+    margin-top: -58px;
 }
 
 .penguin {
@@ -35,4 +36,5 @@ body {
     /* position the mountain directely behind the ground 
        remark: remember that .ground element is at position 3 */
     z-index: 2;
+    margin-top: 100px;
 }
