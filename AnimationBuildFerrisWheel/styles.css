@@ -18,3 +18,8 @@
     top: 50%;
     transform-origin: 0% 0%;
 }
+
+/* It will target the 2nd element with a class .line */
+.line:nth-of-type(2) {
+    transform: rotate(60deg);
+}
