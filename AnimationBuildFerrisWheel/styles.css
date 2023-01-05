@@ -11,6 +11,10 @@
     animation-name: wheel;
     /* The animation duration */
     animation-duration: 10s;
+    /* Sets the number of time the animation will run */
+    animation-iteration-count: infinite;
+    /* Determine how the animation will progress over time */
+    animation-timing-function: linear;
 }
 
 .line {
