@@ -7,6 +7,10 @@
     height: 55vw;
     max-height: 500px;
     max-width: 500px;
+    /* The animation-name comes from  @keyframes wheel */
+    animation-name: wheel;
+    /* The animation duration */
+    animation-duration: 10s;
 }
 
 .line {
