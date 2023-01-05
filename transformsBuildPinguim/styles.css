@@ -57,6 +57,10 @@ body {
     background-color: yellow;
     position: absolute;
     border-radius: 50%;
+    /*It will make the sun appears just 75px of its size on the top right corner */
     top: -75px;
     right: -75px;
+    /* It'll position the penguin in front of the ground */
+    z-index: 4;
+    position: relative;
 }
