@@ -4,4 +4,7 @@ body {
     padding: 0;
     width: 100%;
     height: 100vh;
+    /* Removes vertical and horizontal scrollbar */
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
