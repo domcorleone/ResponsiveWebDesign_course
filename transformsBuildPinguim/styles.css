@@ -64,3 +64,9 @@ body {
     z-index: 4;
     position: relative;
 }
+
+.penguin-head {
+    width: 50%;
+    height: 45%;
+    background: linear-gradient(45deg, gray, rgb(239, 240, 228));
+}
