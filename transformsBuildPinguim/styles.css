@@ -303,4 +303,6 @@ body {
 .penguin:active {
     transform: scale(1.5);
     cursor: not-allowed;
+    /* It will allow the image scaling in smooth way */
+    transition: 1s ease-in-out 0ms;
 }
