@@ -237,6 +237,8 @@ body {
     background-color: var(--penguin-picorna);
     top: 85%;
     border-radius: 50%;
+    /* To make the penguin's feet appears beneath or behind the body */
+    z-index: -1;
 }
 
 .foot.left {
