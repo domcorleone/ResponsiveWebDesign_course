@@ -105,3 +105,9 @@ body {
     /* Create some transparency in the element color of 30% */
     opacity: 70%;
 }
+
+.face {
+    width: 60%;
+    height: 70%;
+    background-color: white;
+}
