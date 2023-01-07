@@ -264,7 +264,8 @@ body {
 .arm.left {
     top: 35%;
     left: 5%;
-    transform-origin: 0% 0%; /* or transform-origin: top left */
+    transform-origin: 0% 0%;
+    /* or transform-origin: top left */
     transform: rotate(130deg) scaleX(-1);
 }
 
@@ -279,13 +280,16 @@ body {
     10% {
         transform: rotate(110deg) scaleX(-1);
     }
+
     20% {
         transform: rotate(130deg) scaleX(-1);
     }
+
     30% {
-      
+        transform: rotate(110deg) scaleX(-1);
     }
+
     40% {
-      
+        transform: rotate(130deg) scaleX(-1);
     }
 }
