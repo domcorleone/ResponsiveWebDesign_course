@@ -298,3 +298,8 @@ body {
         transform: rotate(130deg) scaleX(-1);
     }
 }
+
+/* When penguin is active, it should increase its size */
+.penguin:active {
+    transform: scale(1.5);
+}
