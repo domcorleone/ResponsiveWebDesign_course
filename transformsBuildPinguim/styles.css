@@ -113,3 +113,26 @@ body {
     border-radius: 70% 70% 60% 60%;
     top: 15%;
 }
+
+/*
+    example 01: <div class="face left"></div>
+    targeting class left that is closer to face
+    .face.left{
+
+    }
+    example02: 
+    <div class="face">
+        <div class="left"></div>
+    </div>
+    .face > .left {
+
+    }
+    or 
+    .face .left {
+        
+    }
+*/
+/* class="face left" */
+.face.left {
+    left: 5%;
+}
