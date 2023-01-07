@@ -267,6 +267,11 @@ body {
     transform-origin: 0% 0%;
     /* or transform-origin: top left */
     transform: rotate(130deg) scaleX(-1);
+    /* Add animation to the left arm */
+    animation-name: wave;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .arm.right {
