@@ -273,3 +273,8 @@ body {
     right: -5%;
     transform: rotate(-45deg)
 }
+
+/* animate the penguin */
+@keyframes wave {
+    
+}
