@@ -102,4 +102,6 @@ body {
     top: 10%;
     left: 25%;
     border-radius: 0% 0% 100% 100%;
+    /* Create some transparency in the element color of 30% */
+    opacity: 30%;
 }
