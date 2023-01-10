@@ -1,0 +1,197 @@
+/* definition of the global colors to be used */
+
+:root {
+    --maroon-color: #be2146;
+    --section-projects-color: #45767d;
+    --section-welcome-color: #303841;
+    --white-color: #f0f0f0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Styling the body */
+body {
+    width: 100%;
+    font-family: cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* navbars or menus */
+#navbar {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: var(--maroon-color);
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 1.6rem;
+    padding: 1em;
+}
+
+#navbar ul li a:hover {
+    background-color: var(--section-projects-color);
+}
+
+#navbar ul li {
+    list-style-type: none;
+}
+
+/* styling the sections */
+
+/* 1. welcome-section */
+#welcome-section {
+    background-color: var(--section-welcome-color);
+    height: 100vh;
+    padding-top: 11%;
+    width: 100%;
+}
+
+#welcome-section h1 {
+    color: var(--white-color);
+    font-size: 2.0rem;
+    font-weight: 700;
+}
+
+#welcome-section p {
+    color: var(--maroon-color);
+    font-size: 2.3rem;
+    font-weight: 300;
+}
+
+#welcome-section p,
+h1 {
+    text-align: center;
+}
+
+/* 2. projects section */
+
+#projects {
+    background-color: var(--section-projects-color);
+    padding: 2rem 2rem 12rem 2rem;
+
+    width: 100%;
+    text-align: center;
+    color: var(--white-color);
+    margin: 0 auto;
+}
+
+.project-tile {
+    color: var(--white-color);
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+#projects hr {
+    margin: 0 auto;
+    width: 500px;
+    border: 1px solid var(--white-color);
+    background-color: var(--white-color);
+}
+
+.my-projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1rem;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 2rem;
+    padding-bottom: 4.5rem;
+}
+
+.img-proj {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+#profile-link {
+    background-color: var(--section-welcome-color);
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+/* 3. contact section */
+
+#contact {
+    background-color: var(--section-welcome-color);
+    padding-top: 150px;
+    color: var(--white-color);
+    text-align: center;
+}
+
+#contact ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+#contact ul li {
+    list-style-type: none;
+    font-size: 1.3rem;
+}
+
+#contact ul li a {
+    color: var(--white-color);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--section-welcome-color);
+    margin-top: -11px;
+    border-top: 6px solid var(--maroon-color);
+    padding: 40px 20px;
+    color: var(--white-color);
+
+}
+
+.button {
+    text-decoration: none;
+    background-color: var(--section-welcome-color);
+    color: var(--white-color);
+    padding: 1rem 1.2rem;
+    border-radius: 3px;
+
+}
+
+.icon {
+    /* Apply Acessibility: Think in people with some visual disorder */
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+    /*transition: transform 0.3s ease-out;*/
+}
+
+.button:hover {
+    background-color: var(--maroon-color);
+}
+
+.icon:hover {
+    transform: translateY(-19px);
+}
+
+/* Applying a media query related to the accessibility */
+
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
