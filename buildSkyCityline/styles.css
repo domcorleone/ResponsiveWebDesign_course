@@ -1,5 +1,5 @@
 /* SELECTOR WHERE THE GLOBAL VARIABLES ARE DECLARED */
-/*:root {
+:root {
     --building-color1: #aa80ff;
     --building-color2: #66cc99;
     --building-color3: #cc6699;
@@ -8,7 +8,7 @@
     --window-color2: #8cd9b3;
     --window-color3: #d98cb3;
     --window-color4: #8cb3d9;
-}*/
+}
 
 * {
 
@@ -42,13 +42,13 @@ body {
 .bb1 {
     width: 10%;
     height: 70%;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
     /* creating a variable here */
-    --building-color1: #aa80ff;
+    /*--building-color1: #aa80ff;
     --building-color2: #66cc99;
-    --building-color3: #cc6699;
+    --building-color3: #cc6699; */
 }
 
 .bb1-window {
@@ -287,11 +287,11 @@ body {
 }
 
 .sky {
-    background: radial-gradient(circle closest-corner at 15% 15%,
-            #ccc,
-            #ccc 20%,
-            #445 21%,
-            #223 100%);
+    background: radial-gradient(closest-corner circle at 15% 15%,
+            #ffcf33,
+            #ffcf33 20%,
+            #ffff66 21%,
+            #bbeeff 100%);
 }
 
 @media (max-width: 1000px) {
@@ -308,10 +308,10 @@ body {
 
     .sky {
         background: radial-gradient(closest-corner circle at 15% 15%,
-                #ffcf33,
-                #ffcf33 20%,
-                #ffff66 21%,
-                #bbeeff 100%);
+                #ccc,
+                #ccc 20%,
+                #445 21%,
+                #223 100%);
     }
 
 }
